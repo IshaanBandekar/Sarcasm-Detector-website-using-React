@@ -1,10 +1,10 @@
 {
   "Header": {
-    "title": "We are a Landing Page",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+    "title": "Sarcasm Detector",
+    "paragraph": "Now identify sarcasm at the click of a button."
   },
   "About": {
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "paragraph": "The goal of this project is to identify sarcasm in plain English text.The project plans to exploit the property of a general sarcastic statement of possessing contrasting sentiments by using Natural Language Processing.The project aims at training a model to predict if a given statement is sarcastic or a regular sentence.The model will accept input text from the end user and display whether it is sarcastic or not.",
     "Why": [
       "Lorem ipsum dolor",
       "Tempor incididunt",
@@ -132,29 +132,29 @@
   "Team": [
     {
       "img": "img/team/01.jpg",
-      "name": "John Doe",
-      "job": "Director"
+      "name": "Aaron Albequerque",
+      "job": "101"
     },
     {
       "img": "img/team/02.jpg",
-      "name": "Mike Doe",
-      "job": "Senior Designer"
+      "name": "Ishaan Bandekar",
+      "job": "108"
     },
     {
       "img": "img/team/03.jpg",
-      "name": "Jane Doe",
-      "job": "Senior Designer"
+      "name": "Prajwal Bawankule",
+      "job": "109"
     },
     {
       "img": "img/team/04.jpg",
-      "name": "Karen Doe",
-      "job": "Project Manager"
+      "name": "Christy Chittapily",
+      "job": "117"
     }
   ],
   "Contact": {
-    "address": "4321 California St, San Francisco, CA 12345 ",
+    "address": "St. Francis Institute of Technology, Mumbai ",
     "phone": "+1 123 456 1234",
-    "email": "info@company.com",
+    "email": "miniproject@gmail.com",
     "facebook": "fb.com",
     "twitter": "twitter.com",
     "youtube": "youtube.com"
@@ -185,24 +185,24 @@
 
   "Features": [
     {
-      "icon": "fa fa-comments-o",
+      "icon": "fa fa-youtube",
       "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "text": "To detect sarcasm in English texts we are implementing a deep learning neural network model developed using TensorFlow."
     },
     {
       "icon": "fa fa-bullhorn",
       "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "text": "A training dataset containing sarcastic and non sarcastic texts from Kaggle is used for implementing the model."
     },
     {
       "icon": "fa fa-group",
       "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "text": "Perfect analysis and understanding of the sarcasm sentences can improve the accuracy of sentiment analysis."
     },
     {
       "icon": "fa fa-magic",
       "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "text": "The dataset contains 25000 clean sarcastic tweets and about 100000 clean non sarcastic tweets."
     }
   ]
 }

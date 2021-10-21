@@ -208,7 +208,7 @@ a:focus,
   display: table;
   width: 100%;
   padding: 0;
-  background: url(../img/intro-bg.jpg) center center no-repeat;
+  background: url(../video/video1.mp4) center center no-repeat;
   background-color: #e5e5e5;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -606,4 +606,16 @@ label {
 }
 .form{height: 200px;
   alignItems: 'center'
+}
+@media all and (min-width: 480px) {
+  .Login {
+    margin-top: 150px;
+    padding: 60px 0;
+  }
+
+  .Login form {
+    margin-top: 50px;
+    margin: 0 auto;
+    max-width: 320px;
+  }
 }
