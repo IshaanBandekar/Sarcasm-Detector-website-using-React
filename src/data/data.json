@@ -6,16 +6,14 @@
   "About": {
     "paragraph": "The goal of this project is to identify sarcasm in plain English text.The project plans to exploit the property of a general sarcastic statement of possessing contrasting sentiments by using Natural Language Processing.The project aims at training a model to predict if a given statement is sarcastic or a regular sentence.The model will accept input text from the end user and display whether it is sarcastic or not.",
     "Why": [
-      "Lorem ipsum dolor",
-      "Tempor incididunt",
-      "Lorem ipsum dolor",
-      "Incididunt ut labore"
+      "Multi-Modal Sarcasm Detection",
+      "We enhance the User experience on social media"
+      
     ],
     "Why2": [
-      "Aliquip ex ea commodo",
-      "Lorem ipsum dolor",
-      "Exercitation ullamco",
-      "Lorem ipsum dolor"
+      "We use Deep Neural Network",
+      "We have a Large Self-Annotated Corpus for Sarcasm"
+      
     ]
   },
   "Gallery": [
@@ -100,39 +98,39 @@
   "Testimonials": [
     {
       "img": "img/testimonials/01.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
+      "text": "\"It was truly useful for our company, it helped us to weed out the sarcastic reviews.\"",
+      "name": "Justin Chittapilly"
     },
     {
       "img": "img/testimonials/02.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
+      "text": "\"I was constantly bullied for not able to understand sarcasm, this application helped me a lot.\"",
+      "name": "Justin Bandekar"
     },
     {
       "img": "img/testimonials/03.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
+      "text": "\"Very useful website! It helped me understand sarcasm and how to use it properly and smartly.\"",
+      "name": "Justin Bawankule"
     },
     {
       "img": "img/testimonials/04.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
+      "text": "\"Amazing and user friendly UI. I suggest it to all my friends and family.\"",
+      "name": "Justin Albuquerque"
     },
     {
       "img": "img/testimonials/05.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
+      "text": "\"The results of the analysis are so amazing that even a person like me with zero sense of humour can now understand sarcasm.\"",
+      "name": "Justin Beiber"
     },
     {
       "img": "img/testimonials/06.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
+      "text": "\"This website helped me a lot to understand Russian memes. Now I am in love with sarcasm and Russian memes.\"",
+      "name": "Justin Иванов"
     }
   ],
   "Team": [
     {
       "img": "img/team/01.jpg",
-      "name": "Aaron Albequerque",
+      "name": "Aaron Albuquerque",
       "job": "101"
     },
     {
@@ -185,23 +183,23 @@
 
   "Features": [
     {
-      "icon": "fa fa-youtube",
-      "title": "Lorem ipsum",
+      "icon": "fa fa-laptop",
+      "title": "Instant Text Detection",
       "text": "To detect sarcasm in English texts we are implementing a deep learning neural network model developed using TensorFlow."
     },
     {
-      "icon": "fa fa-bullhorn",
-      "title": "Lorem ipsum",
+      "icon": "fa fa-archive",
+      "title": "Contextual Detection",
       "text": "A training dataset containing sarcastic and non sarcastic texts from Kaggle is used for implementing the model."
     },
     {
-      "icon": "fa fa-group",
-      "title": "Lorem ipsum",
+      "icon": "fa fa-android",
+      "title": "Deep Learning",
       "text": "Perfect analysis and understanding of the sarcasm sentences can improve the accuracy of sentiment analysis."
     },
     {
-      "icon": "fa fa-magic",
-      "title": "Lorem ipsum",
+      "icon": "fa fa-database",
+      "title": "Comprehensive Dataset",
       "text": "The dataset contains 25000 clean sarcastic tweets and about 100000 clean non sarcastic tweets."
     }
   ]

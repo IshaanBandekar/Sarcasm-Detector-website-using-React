@@ -1,3 +1,5 @@
+
+
 export const Header = (props) => {
   return (
     <header id='header'>
@@ -16,7 +18,7 @@ export const Header = (props) => {
                   className='btn btn-custom btn-lg page-scroll'
                 >
                   Learn More
-                </a>{' '}
+                </a>
               </div>
             </div>
           </div>
