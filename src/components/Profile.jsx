@@ -49,7 +49,7 @@ export default function UpdateProfile() {
                 required
                 defaultValue={currentUser.name}
               /> */}
-              <input required="" type="name" class="form-control" value="Sarcasm"></input>
+              <input required="" type="name" class="form-control" value="Prajwal"></input>
             </Form.Group>
             <Form.Group id="number">
               <Form.Label>Phone number</Form.Label>
