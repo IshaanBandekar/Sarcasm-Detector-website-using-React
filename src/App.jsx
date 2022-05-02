@@ -12,7 +12,7 @@ import { Contact } from "./components/contact";
 import JsonData from "./data/data.json";
 import SmoothScroll from "smooth-scroll";
 import "./App.css";
-import Login from "./components/Login";
+import Login from "./components/login";
 import Signup from "./components/Signup";
 import ForgotPassword from "./components/ForgotPassword";
 // import { Router } from "express";
