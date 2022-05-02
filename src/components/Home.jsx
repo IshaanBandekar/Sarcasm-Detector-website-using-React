@@ -9,7 +9,7 @@ import { Testimonials } from "./testimonials";
 import { Team } from "./Team";
 // import { Contact } from "./components/Contact";
 // import {Justin } from "./components/justin"
-// import { Contact } from "../components/contact";
+// import { Contact } from "./contact";
 import JsonData from "../data/data.json";
 import Reviews from "./reviews";
 // import SmoothScroll from "smooth-scroll";
