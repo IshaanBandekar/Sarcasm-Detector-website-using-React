@@ -63,9 +63,9 @@ export const Navigation = (props) => {
             )}
              {currentUser && (
               <li >
-              <Link to='/sarcasm' className='page-scroll'>
+              <a href="http://127.0.0.1:5000">
                 Sarcasm detector
-              </Link>
+              </a>
               
             </li> 
                
@@ -103,9 +103,14 @@ export const Navigation = (props) => {
                 Team
               </a>
             </li>
-            <li>
+            {/* <li>
               <a href='#contact' className='page-scroll'>
                 Contact Us
+              </a>
+            </li> */}
+            <li>
+              <a href='#contact' className='page-scroll'>
+                Reviews
               </a>
             </li>
          

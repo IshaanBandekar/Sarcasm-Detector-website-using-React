@@ -1,22 +1,23 @@
 import firebase from 'firebase/compat/app';
 import 'firebase/compat/auth';
 import 'firebase/compat/firestore';
-import { config } from "./config";
+// import { config } from "./config";
 // import Axios from 'axios'
 
-// const app = firebase.initializeApp({
-//   // apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
-//   // authDomain: process.env.REACT_APP_FIREBASE_AUTH_DOMAIN,
-//   // // databaseURL: process.env.REACT_APP_FIREBASE_DATABASE_URL,
-//   // projectId: process.env.REACT_APP_FIREBASE_PROJECT_ID,
-//   // storageBucket: process.env.REACT_APP_FIREBASE_STORAGE_BUCKET,
-//   // messagingSenderId: process.env.REACT_APP_FIREBASE_MESSAGING_SENDER_ID,
-//   // appId: process.env.REACT_APP_FIREBASE_APP_ID
-//   firebaseConfig();
-// })
+const app = firebase.initializeApp({
+    apiKey: "AIzaSyClOmFiIbO35e2SsfBgkfmNwOksKvN4d4U",
+    authDomain: "auth-development-3beee.firebaseapp.com",
+    projectId: "auth-development-3beee",
+    storageBucket: "auth-development-3beee.appspot.com",
+    messagingSenderId: "268559773718",
+    appId: "1:268559773718:web:42d4d3de6e0e7a773b0537"
+ 
+});
 // firebaseConfig();
-const app = firebase.initializeApp(config);
+
+var db = app.firestore();
 
 export const auth = app.auth();
 // export { Axios}
-export default app
+export default app;
+export {db};

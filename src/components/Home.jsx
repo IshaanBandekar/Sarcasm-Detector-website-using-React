@@ -9,8 +9,9 @@ import { Testimonials } from "./testimonials";
 import { Team } from "./Team";
 // import { Contact } from "./components/Contact";
 // import {Justin } from "./components/justin"
-import { Contact } from "./contact";
+// import { Contact } from "../components/contact";
 import JsonData from "../data/data.json";
+import Reviews from "./reviews";
 // import SmoothScroll from "smooth-scroll";
 function Home() {
     const [landingPageData, setLandingPageData] = useState({});
@@ -26,7 +27,8 @@ function Home() {
       {/* <Services data={landingPageData.Services} /> */}
       <Testimonials data={landingPageData.Testimonials} /> 
       <Team data={landingPageData.Team} />
-      <Contact data={landingPageData.Contact} />
+      {/* <Contact data={landingPageData.Contact} /> */}
+      <Reviews data={landingPageData.Reviews} />
       {/* <Justin data={landingPageData.Justin}/> */}
         </div>
     )
