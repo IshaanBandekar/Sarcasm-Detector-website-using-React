@@ -4,7 +4,7 @@ import { Header } from "./components/header";
 import { Features } from "./components/features";
 import { About } from "./components/about";
 // import { Services } from "./components/services";
-// import { Testimonials } from "./components/testimonials";
+// import { Testimonials } from  "./components/testimonials";
 import { Team } from "./components/Team";
 // import { Contact } from "./components/Contact";
 // import {Justin } from "./components/justin"
@@ -24,7 +24,10 @@ import { AuthProvider } from "../src/contexts/AuthContext"
 import PrivateRoute from "./components/PrivateRoute"
 import Profile from "./components/Profile"
 import UpdateProfile from "./components/UpdateProfile"
+import Reviews from "./components/reviews";
 import Sarcasmdetector from "./components/Sarcasmdetector"
+import SarcasmResult from "./components/SarcasmResult";
+
 
 
 
@@ -68,7 +71,9 @@ const App = () => {
               <Route path="/forgot-password" component={ForgotPassword} />
               <PrivateRoute path="/profile" component={Profile} />
               <PrivateRoute path="/update-profile" component={UpdateProfile} />
-              <PrivateRoute path="/sarcasm" component={Sarcasmdetector} />
+              {/* <PrivateRoute path="/sarcasm" component={Sarcasmdetector} />
+              <PrivateRoute path="/result" component={SarcasmResult} /> */}
+              
           
         </Switch>
         </AuthProvider>
